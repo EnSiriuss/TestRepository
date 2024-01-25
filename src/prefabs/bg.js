@@ -9,7 +9,7 @@ class bg extends Phaser.GameObjects.Container {
 		super(scene, x ?? 356, y ?? 242);
 
 		// bg
-		const bg = scene.add.image(46, 48, "bg");
+		const bg = scene.add.image(49, 68, "bg");
 		bg.scaleX = 0.888004985259398;
 		bg.scaleY = 0.979449722133737;
 		this.add(bg);
