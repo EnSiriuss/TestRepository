@@ -8,18 +8,11 @@
     },
     "displayList": [
         {
-            "type": "ArcadeSprite",
-            "id": "0944317c-b6c0-4e68-b44f-a3cf4c45f589",
-            "label": "arcadesprite_1",
-            "texture": {
-                "key": "dino"
-            },
+            "type": "Container",
+            "id": "9da49274-e2b9-4c4b-9299-b7775588e0e0",
+            "label": "container_1",
             "x": 340,
-            "y": 296,
-            "body.width": 256,
-            "body.height": 238,
-            "body.offset.x": -3,
-            "body.offset.y": 3
+            "y": 230
         }
     ],
     "plainObjects": [],

@@ -3,14 +3,10 @@
 
 /* START OF COMPILED CODE */
 
-class Prefab extends Phaser.Physics.Arcade.Sprite {
+class Prefab extends Phaser.GameObjects.Container {
 
-	constructor(scene, x, y, texture, frame) {
-		super(scene, x ?? 340, y ?? 296, texture || "dino", frame);
-
-		scene.physics.add.existing(this, false);
-		this.body.setOffset(-3, 3);
-		this.body.setSize(256, 238, false);
+	constructor(scene, x, y) {
+		super(scene, x ?? 340, y ?? 230);
 
 		/* START-USER-CTR-CODE */
 		// Write your code here.
