@@ -20,23 +20,16 @@ class Level extends Phaser.Scene {
 		const prefab = new Prefab(this, 859, 165);
 		this.add.existing(prefab);
 
-		// colide
-		const colide = new Colide(this, 729, 554);
-		this.add.existing(colide);
-		colide.body.allowGravity = false;
-		colide.body.immovable = false;
-
-		// fall
-		const fall = this.add.image(142, 194, "Fall");
-		fall.scaleX = 10;
-		fall.scaleY = 10;
-
 		// prefab_1
 		const prefab_1 = new Prefab(this, 558, 115);
 		this.add.existing(prefab_1);
 
+		// bg
+		const bg = new bg(this, 599, 315);
+		this.add.existing(bg);
+
 		// lists
-		const colliders = [colide];
+		const colliders = [];
 		const players = [prefab, prefab_1];
 
 		this.prefab_1 = prefab_1;
@@ -48,7 +41,7 @@ class Level extends Phaser.Scene {
 
 	/** @type {Prefab} */
 	prefab_1;
-	/** @type {Colide[]} */
+	/** @type {Array<any>} */
 	colliders;
 	/** @type {Prefab[]} */
 	players;

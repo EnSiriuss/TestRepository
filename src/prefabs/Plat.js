@@ -3,45 +3,25 @@
 
 /* START OF COMPILED CODE */
 
-class Plat extends Phaser.Scene {
+class Plat extends Phaser.Physics.Arcade.Sprite {
 
-	constructor() {
-		super("Plat");
+	constructor(scene, x, y, texture, frame) {
+		super(scene, x ?? 375, y ?? 295, texture || "platform", frame);
+
+		scene.physics.add.existing(this, true);
+		this.body.allowGravity = false;
+		this.body.pushable = false;
+		this.body.immovable = true;
+		this.body.setSize(505, 97, false);
 
 		/* START-USER-CTR-CODE */
 		// Write your code here.
 		/* END-USER-CTR-CODE */
 	}
 
-	/** @returns {void} */
-	editorCreate() {
-
-		// arcadesprite_1
-		const arcadesprite_1 = this.physics.add.staticSprite(319, 285, "_MISSING");
-		arcadesprite_1.body.allowGravity = false;
-		arcadesprite_1.body.immovable = true;
-		arcadesprite_1.body.setOffset(-232, -18);
-		arcadesprite_1.body.setSize(496, 74, false);
-
-		// arcadesprite_2
-		const arcadesprite_2 = this.physics.add.staticSprite(537, 186, "_MISSING");
-		arcadesprite_2.body.allowGravity = false;
-		arcadesprite_2.body.pushable = false;
-		arcadesprite_2.body.immovable = true;
-		arcadesprite_2.body.setOffset(-83, -21);
-		arcadesprite_2.body.setSize(206, 74, false);
-
-		this.events.emit("scene-awake");
-	}
-
 	/* START-USER-CODE */
 
-	// Write your code here
-
-	create() {
-
-		this.editorCreate();
-	}
+	// Write your code here.
 
 	/* END-USER-CODE */
 }

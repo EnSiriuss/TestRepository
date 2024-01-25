@@ -21,33 +21,6 @@
             "y": 165
         },
         {
-            "prefabId": "74cfc862-d52f-4168-8d5c-e031f68e8a9f",
-            "id": "dc688020-8434-47f4-b003-80b0a6d53135",
-            "unlock": [
-                "x",
-                "y",
-                "immovable",
-                "allowGravity"
-            ],
-            "label": "colide",
-            "x": 729,
-            "y": 554,
-            "allowGravity": false,
-            "immovable": false
-        },
-        {
-            "type": "Image",
-            "id": "d4266617-8289-4247-b041-986dfbac10d4",
-            "label": "fall",
-            "texture": {
-                "key": "Fall"
-            },
-            "x": 142,
-            "y": 194,
-            "scaleX": 10,
-            "scaleY": 10
-        },
-        {
             "prefabId": "6839efa3-2191-42d2-83ac-c45807ea57f2",
             "id": "62cdb470-c524-4489-8f12-798cb6a17cd3",
             "unlock": [
@@ -58,6 +31,17 @@
             "scope": "PUBLIC",
             "x": 558,
             "y": 115
+        },
+        {
+            "prefabId": "5d3a744c-ba76-4c68-baf5-186688d46182",
+            "id": "d9c36153-2169-48bf-bb40-d24bd7c07985",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bg",
+            "x": 599,
+            "y": 315
         }
     ],
     "plainObjects": [],
@@ -70,10 +54,7 @@
     "lists": [
         {
             "id": "c2238dae-33d0-45fc-b3b5-e86fafd59800",
-            "label": "colliders",
-            "objectIds": [
-                "dc688020-8434-47f4-b003-80b0a6d53135"
-            ]
+            "label": "colliders"
         },
         {
             "id": "b218aee8-8685-4029-8b75-92b24223247f",

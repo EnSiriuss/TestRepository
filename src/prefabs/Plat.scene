@@ -1,42 +1,27 @@
 {
-    "id": "542bd175-aad6-438a-b979-5db504545b86",
-    "sceneType": "SCENE",
+    "id": "713f03ea-8a8c-4b2d-bd29-338277f7295d",
+    "sceneType": "PREFAB",
     "settings": {
+        "preloadMethodName": "",
         "preloadPackFiles": [],
-        "createMethodName": "editorCreate",
-        "sceneKey": "Plat"
+        "createMethodName": ""
     },
     "displayList": [
         {
             "type": "ArcadeSprite",
-            "id": "1bc0dc23-6d9b-44ca-81b1-99f48aeca14a",
+            "id": "c4418106-f490-435d-8f84-953996919271",
             "label": "arcadesprite_1",
-            "texture": {},
-            "x": 319,
-            "y": 285,
-            "physicsType": 1,
-            "allowGravity": false,
-            "immovable": true,
-            "body.width": 496,
-            "body.height": 74,
-            "body.offset.x": -232,
-            "body.offset.y": -18
-        },
-        {
-            "type": "ArcadeSprite",
-            "id": "8942ee55-c768-4850-8470-54f3a02b7134",
-            "label": "arcadesprite_2",
-            "texture": {},
-            "x": 537,
-            "y": 186,
+            "texture": {
+                "key": "platform"
+            },
+            "x": 375,
+            "y": 295,
             "physicsType": 1,
             "allowGravity": false,
             "pushable": false,
             "immovable": true,
-            "body.width": 206,
-            "body.height": 74,
-            "body.offset.x": -83,
-            "body.offset.y": -21
+            "body.width": 505,
+            "body.height": 97
         }
     ],
     "plainObjects": [],

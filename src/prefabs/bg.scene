@@ -1,0 +1,49 @@
+{
+    "id": "5d3a744c-ba76-4c68-baf5-186688d46182",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": ""
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c14e5680-8bf7-4dfc-a3dd-3fcd56ec8f58",
+            "label": "container_1",
+            "x": 356,
+            "y": 242,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "10451c2d-1038-4fd1-b160-b4ff276196a8",
+                    "label": "bg",
+                    "texture": {
+                        "key": "bg"
+                    },
+                    "x": 46,
+                    "y": 48,
+                    "scaleX": 0.888004985259398,
+                    "scaleY": 0.979449722133737
+                },
+                {
+                    "type": "Image",
+                    "id": "4ce4c7d9-1762-4563-846a-9c05d4c81d93",
+                    "label": "image_1",
+                    "texture": {},
+                    "x": 34,
+                    "y": -385,
+                    "scaleX": -0.2878909608349063,
+                    "scaleY": 0.4751302693420558
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
